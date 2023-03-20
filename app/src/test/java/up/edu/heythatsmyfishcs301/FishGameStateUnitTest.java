@@ -21,7 +21,6 @@ public class FishGameStateUnitTest {
         FishGameState f = new FishGameState(1);
         f.setPlayer1Score(60);
         f.setPlayerTurn(0);
-        //f.addScore(f.getPlayerTurn(),44);
         assertEquals(f.getPlayer1Score(),60);
     }
 
