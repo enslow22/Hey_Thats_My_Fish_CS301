@@ -100,7 +100,7 @@ public class FishView extends SurfaceView {
         orangePenguin = BitmapFactory.decodeResource(getResources(), R.drawable.orangepenguin);
         bluePenguin = BitmapFactory.decodeResource(getResources(), R.drawable.bluepenguin);
         greenPenguin = BitmapFactory.decodeResource(getResources(), R.drawable.greenpenguin);
-        //cursedPenguin = BitmapFactory.decodeResource(getResources(), R.drawable.cursed);
+
     }
 
 
@@ -153,11 +153,9 @@ public class FishView extends SurfaceView {
                 hexWidth - 20, false);
         resizedGreenPenguin = Bitmap.createScaledBitmap(greenPenguin, hexWidth - 20,
                 hexWidth - 20, false);
-       // resizedCursedPenguin = Bitmap.createScaledBitmap(cursedPenguin, hexWidth - 20,
-                // hexWidth - 20, false);
 
 
-       /** Here, we go through the array and if the tile is null, then it is a placeholder and we
+        /** Here, we go through the array and if the tile is null, then it is a placeholder and we
         * skip it.
         * If it is a tile that exists, we draw it.
         * Increment the Rect bound object

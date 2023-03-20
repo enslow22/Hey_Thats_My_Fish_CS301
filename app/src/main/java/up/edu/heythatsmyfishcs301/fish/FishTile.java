@@ -74,6 +74,10 @@ public class FishTile {
         return this.boundingBox;
     }
 
+    public int getNumFish(){
+        return this.numFish;
+    }
+
 
     /**
      * SETTER METHODS
@@ -106,8 +110,5 @@ public class FishTile {
         this.numFish = i;
     }
 
-    public int getNumFish(){
-        return this.numFish;
-    }
 
 } //FishTile class
